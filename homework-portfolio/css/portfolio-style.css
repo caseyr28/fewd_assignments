@@ -1,0 +1,125 @@
+//GLOBAL///
+body, ul, li, a{
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ccc;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a.visited{
+	color: #2c7e6c;
+}
+
+img{
+	border: 1px solid black;
+}
+
+
+#main{
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	margin: 30px;
+}
+
+#header{
+	text-align: center;
+	border-bottom: 3px solid #ccc;
+
+}
+
+#nav ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 20px;
+}
+
+li.nav-unselected{
+	text-decoration: underline;
+	color: black;
+}
+
+li.nav-selected{
+	text-decoration: line-through;
+	color: black;
+}
+
+
+/*--about me page--*/
+
+#bio img{
+	float: right;
+	margin: 20px 20px 0 0;
+	width: 45%;
+
+}
+
+.bio-copy{
+	float: left;
+	width: 50%;
+	margin-bottom: 40px;
+	border-bottom: 1px dotted #ccc;
+}
+
+#footer-links ul li{
+
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin-right: 20px;
+	text-decoration: underline;
+
+}
+
+/*--portfolio page--*/
+
+.experience-copy{
+
+	padding: 20px 10%;
+	border-bottom: 1px dotted #ccc;
+	line-height: 22px;
+}
+
+.portfolio{
+	padding: 20px 10%;
+
+}
+
+.portfolio ul li{
+	margin-bottom: 10%;
+}
+
+.portfolio h4, h5{
+	font-size: 20px;
+	font-style: italic;
+	color: #2c7e6c;
+}
+
+.education{
+	list-style-type: none;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 2px;
+
+}
+
+.bottom-image{
+	height: 500px;
+	border: none;
+	background: url(../images/giphy.gif) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	text-align: center;
+	font-size: 180px;
+	letter-spacing: 30px;
+	color: pink;
+	padding: 30%;
+}
+
+
