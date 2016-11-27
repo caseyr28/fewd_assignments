@@ -1,0 +1,272 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     color: white;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+a.social-links{
+  color: white;
+  padding: 30px;
+}
+
+p{
+  font-size: 18px;
+  color: #606061;
+  line-height: 26px;
+  margin:0;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+
+#main{
+ padding: 30px; 
+}
+
+header{
+  background-color: #053049;
+  padding: 20px;
+  height: 90px;
+}
+
+nav{
+  float: right;
+  margin-top: 18px;
+}
+
+footer {
+  background-color: #121111;
+  text-align: center;
+  padding: 30px;
+  clear: both;
+}
+
+#link{
+  padding: 40px;
+  background-color: #f9e42e;
+  text-align: center;
+  clear: both;
+}
+
+.yellow{
+  background: #f9e42e;
+  color: #033048;
+}
+
+.posts{
+  float: left;
+  width: 75%;
+  margin-bottom: 80px;
+}
+
+article{
+  color: #053049;
+  padding: 40px 0 40px 0;
+  border-bottom: solid 1px black;
+}
+
+aside{
+  float: right;
+  width: 25%;
+  color: #053049;
+  padding: 6px 0 0 30px;
+}
+
+
+/******************************************
+/* TYPOGRAPHY< BUTTONS AND LINKS
+/*******************************************/
+
+h1{
+  text-align: left;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+h2{
+  margin-top: 18%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700; 
+}
+
+h3{
+  color: #033048;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+p{
+  font-size: 18px;
+  color: #606061;
+  line-height: 26px;
+}
+
+ul li{
+  font-size: 18px;
+  color: #606061;
+  list-style: none;
+}
+
+
+footer h1{
+  padding: 5%;
+  text-align: center;
+  color: yellow;
+} 
+
+footer p{
+  color: white;
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+
+header h1{
+  float: left;
+}
+
+
+nav li{
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+}
+
+nav li a{
+  color: yellow;
+  font-weight: 400;
+}
+
+aside h2{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+aside a{
+  font-weight: 800;
+  color: #053049;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+aside ul li a{
+  font-weight: 400;
+}
+
+article h1{
+  font-weight: 700; 
+  margin-bottom: 20px;
+}
+
+article p{
+  color: #053049;
+  line-height: 32px;
+  margin-bottom: 40px;
+
+}
+article a{
+  float: right;
+  font-weight: 700;
+  color: #053049;
+  font-size: 18px;
+}
+
+.main-cta{
+  border: none;
+  text-decoration: none;
+  background-color: #053049;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  padding: 12px 60px;  
+}
+
+.firstcharacter{
+  font-size: 64px;
+  float: left;
+  padding: 20px 10px 10px 0;
+}
+
+
+
+
+
+
+
+
