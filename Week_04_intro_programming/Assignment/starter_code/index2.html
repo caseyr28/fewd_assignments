@@ -1,0 +1,30 @@
+<style>
+	#myList{
+		display: none;
+	}
+</style>
+<body>
+	<a id="myLink" href="">Click Me</a>
+
+	<ul>
+		<li id="first">FIRST</li>
+		<li id="second">Second</li>
+	</ul>
+
+</body>
+
+<script>
+	document.getElementById('myLink').onclick = switcher;
+
+	function switcher(){
+		var firstValue = document.getElementById('first').innerText;
+		var secondValue = document.getElementById('second').innerText;
+		if(firstValue != "Second"){
+			document.getElementById('first').innerText = secondValue;
+			document.getElementById('second').innerText = firstValue;
+		} else {
+		alert('you have a virus');
+	}
+
+	}
+</script>
