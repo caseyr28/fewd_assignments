@@ -1,0 +1,88 @@
+/* Globals */
+
+body {
+  font-size: 15px;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+div {
+  /* padding-bottom: 30px; */
+}
+
+header{
+  background-color: pink;
+  padding: 1.33333%;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+.container{
+	width: 100%;
+  margin: auto;
+}
+
+.items{
+  background-color: blue;
+}
+
+.item{
+	margin: 2.04081%; /* 20/980 *100  = 2.04081% */
+}
+
+.item.left{
+	height: 200px;
+  float: left;
+  width: 20.40816%;  /* 200/980 * 100 = 20.40816% */
+	background-color: red;
+}
+
+.item.right{
+	height: 200px;
+  float: left;
+  width: 71.42857%; /* 700/980 * 100 = 71.42857 % */
+	background-color: green;
+}
+
+.more-items{
+  background-color: purple;
+}
+
+.item.col-3{
+  width: 30%; /* equivalent to 294px at container 980px */
+  margin: 1.33333%;
+  height: 300px;
+  float: left;
+}
+
+.tng-1{
+  background-color: #C0C0C0;
+}
+
+.tng-2{
+  background-color: #FFD700;
+}
+
+.tng-3{
+  background-color: #000000;
+}
+
+#tng_image{
+  float: left;
+  width: 81%;
+
+
+
+
+}

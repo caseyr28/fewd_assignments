@@ -1,0 +1,36 @@
+//css for rock paper scissors
+
+body{
+	margin: 0 auto;
+}
+
+
+h1{
+
+}
+
+h2{
+	font-size: 12px;
+
+}
+
+
+.scoreboardContainer{
+	border: 1px solid #000;
+	background-color: red;
+	text-align: center;
+	padding: 3em;
+}
+
+.scoreboard{
+	display: inline;
+	width: 400px;
+
+}
+
+.gameButtons{
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}
+
