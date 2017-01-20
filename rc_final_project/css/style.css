@@ -1,0 +1,607 @@
+/*Globals*/
+
+
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	background: url(../img/gritties.png) no-repeat left top;
+}
+
+header{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h1, h2, {
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h3, h4, h5, h6, {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 12px;	
+}
+
+span{
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	font-weight: normal;
+
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+
+}
+
+
+a:hover{
+
+}
+
+a:visited{
+}
+
+.active{
+	color: #000;
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #000;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+
+
+
+/*navigation styles*/
+nav{
+	padding: 15% 0 5% 15%;
+	width: 100%;
+	height: 40px;
+}
+
+
+nav li{
+	display: inline-block;	
+	vertical-align: top;
+	padding-right: 30px;
+}
+
+nav a{
+	height: 40px;
+	font-size: 0.625em;
+	letter-spacing: 0.230em;
+	font-weight: 700;
+	line-height: 40px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+footer{
+	font-size: 1em;
+	color: gray;
+	padding: 15% 0 5% 15%;
+	clear: both;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#logo{
+
+
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+
+/* ------------------------------------------------------------------
+page specific styles
+----------------------------------------------------------------------*/
+/*HOMEPAGE/WORK INDEX */
+
+#workThumbs{
+	width: 100%;
+	padding-bottom: 30px;
+	margin-top: 10%;
+
+
+}
+
+
+span.text-content {
+  font-size: 20px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+   -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms; 
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a:hover span.text-content{
+	opacity: 1;
+}
+
+#workThumbs a:hover div span{
+	opacity: 1;
+}
+
+.row{
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+
+}
+
+.thumb{
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(../img/project1_test.png) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+/*temp styles*/
+.green{
+	background: url(../img/project1_test.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	 	
+	height: 600px;
+	width: 60%;
+	background-color: #ee0d28;
+}
+
+.blue{
+	height: 400px;
+	width: 40%;
+	background-color: #ee0d28;
+}
+
+.purple{
+	background: url(../img/project1_test.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	 		
+	height: 600px;
+	width: 60%;
+	background-color: #ee0d28;
+}
+
+.black{ 	
+	height: 600px;
+	width: 60%;
+	background-color: #ee0d28;	
+}
+
+.red{
+	background: url(../img/project1_test.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	 		
+	height: 800px;
+	width: 40%;
+	background-color: #ee0d28;
+}
+
+.right{
+	float: right;
+}
+
+/* ABOUT */
+
+#aboutMe, #workIntro{
+	padding: 5% 0 15% 15%;
+	width: 54%;
+}
+
+
+#workIntro, #aboutMe, h1{
+	font-size: 64px;
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+	line-height: 80px;
+	color: #000;
+	margin-top: 0;
+}
+
+#aboutMe h1, #aboutMe a{
+
+	background: url(../img/my_mug.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ 	font-family: 'Merriweather', serif;
+  
+}
+
+
+
+#aboutMe h4 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 10%;
+}
+
+
+#workIntro h2{
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#workIntro p{
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.aboutText, .workText {
+	font-size: 26px;
+	line-height: 1.5em;
+	margin-bottom: 15%;
+	color: #333;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.aboutText a{
+	color: #333;
+	opacity: 0.7;
+}
+
+.aboutText a:hover {
+	text-decoration: line-through;
+	opacity: 1
+}
+
+
+
+.socials{
+	font-size: 24px;
+	display: inline-block;
+	padding: 0 3% 0 0;
+
+}
+
+.line-spacer{
+	border-left: 1px solid gray;
+	height: 300px;
+	margin: 2% 0 10% 6%;
+}
+
+/* work detail page specific styles */
+
+
+.introImage img{
+	max-width: 40%;
+	top: 30%;
+	right: 0;
+	position: absolute;
+	z-index: -1;	
+}
+
+
+#work{
+	background-color: #fddb07;
+}
+
+#work img{
+	display: block;
+	margin: 5% auto;	
+	max-width: 90%;
+
+}
+
+#work
+
+#work div {
+	top: -150px;
+
+}
+
+
+.details h2, p{
+	color: #333;
+	font-size: 26px;
+	line-height: 30px;
+	margin: 0 0 0 12%;
+	width: 50%;
+
+}
+
+.details p{
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 2%;
+	margin: 0 0 10% 12%;
+}
+
+.interstitial{
+  	width: 100%;
+  	height: 50%;
+  	margin: 20% 0 20% 0;
+
+}
+
+/*---specific background images for project interstitials---*/
+.hope{
+	background: url(../img/hope_img/products.jpg) no-repeat center center ;
+	  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.two{
+	text-align: center;
+}
+
+.two img{
+	width: 40%;
+	padding: 3em;
+}
+
+#callouts{
+	width: 100%;
+
+}
+#callouts div{
+	float: left;
+	padding: 20% 10% 5% 10%;
+	width: 50%;
+	display: inline;
+  	box-sizing: border-box;
+  	text-align: center;
+  	height: 30px;
+}
+
+
+
+
+/*-------------------------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------------------------*/
+/* phone/mobile */
+
+@media screen and (max-width: 480px){
+
+	footer{
+		font-size: 1em;
+		margin: 12% 0 5% 12%;
+		clear: both;
+	}
+
+	/* homepage/work index*/
+	.green, .blue, .purple, .red, .black{
+		width: 100%;
+		clear: both;
+	}
+
+	nav{
+		padding: 12% 0 5% 12%;
+	}
+
+
+	#aboutMe, #workIntro{
+	padding: 5% 2% 50% 12%;
+	width: 84%;
+	}
+
+	#aboutMe, #workIntro, h1{
+	font-size: 36px;
+	line-height: 1.2em;
+	}
+
+	#workIntro h2{
+	font-size: 12px;
+	line-height: 22px;
+	}
+
+	#work img{	
+	max-width: 90%;
+	}
+
+	.introImage img{
+	display: none;	
+	}
+
+	.interstitial{
+		margin: 20% 0 20% 0;
+		height: 80vh;
+		padding-top: 50%;
+	}
+
+	.details{
+	margin: 40% 0 40% 12%;
+	width: 80%;
+	padding: 10% 0 10% 0;
+	}
+
+	.details h2, p{
+	font-size: 20px;
+	line-height: 26px;
+	margin:0;
+	width: 100%;
+	padding: 0;
+	}
+
+	.two img{
+	width: 90%;
+	padding: 0;
+	}
+
+	.aboutText {
+	font-size: 26px;
+	line-height: 1.6em;
+	}
+
+	.line-spacer{
+	height: 150px;
+	}
+
+}
+
+
+/* tablet-portrait */
+@media screen and (min-width: 481px) and (max-width: 950px){
+
+	footer{
+		font-size: 1em;
+		margin: 12% 0 5% 12%;
+	}
+
+	/* homepage/work index*/
+	.green, .blue, .purple, .red, .black{
+		width: 100%;
+		clear: both;
+	}
+
+	nav{
+		padding: 12% 0 5% 12%;
+	}
+
+	/* about page*/
+
+	#aboutMe, #workIntro{
+	padding: 5% 2% 30% 12%;
+	width: 65%;
+	}
+
+	#workIntro, #aboutMe, h1{
+	font-size: 34px;
+	line-height: 40px;
+	}
+
+	.aboutText, .workText {
+	font-size: 22px;
+	line-height: 1.6em;
+	}
+
+	.introImage img{
+	max-width: 30%;
+	top: 10%;	
+	}
+
+	#work img{	
+	max-width: 90%;
+	}
+
+	#workIntro h2{
+	font-size: 12px;
+	line-height: 22px;
+	}
+
+	.details{
+	margin: 10% 0 10% 12%;
+	width: 80%;
+	padding: 10% 0 10% 0;
+	}
+
+	.interstitial{
+		margin: 20% 0 20% 0;
+		height: 80vh;
+		padding-top: 50%;
+	}
+
+	.two img{
+	width: 90%;
+	padding: 0;
+	}
+
+}
+
+
+
+
+
+

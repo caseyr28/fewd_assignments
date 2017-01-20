@@ -1,0 +1,54 @@
+/* Globals */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+div {
+  /* padding-bottom: 30px; */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+}
+
+header{
+  border: 2px solid black;
+  height: 200px;/* was 200px.  change to em */
+  /* 200/16 = 12.5em */
+  margin: 1%;
+}
+
+.items{
+}
+
+.main_item{
+  border: 1px solid black;
+  float: left;
+  width: 23%;
+  height: 200px; /* was 200px.  change to em */
+  /* 200/16 = 12.5em */
+  margin: 0.5%;
+}
+
+
+

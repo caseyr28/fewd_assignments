@@ -1,0 +1,33 @@
+/* Globals */
+
+body {
+  font-size: 15px;
+  margin: 0;
+  background-color: blue;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+div {
+  /* padding-bottom: 30px; */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+@media screen and (max-width: 768px){
+	body{
+		background-color: green;
+	}
+}
+
+
